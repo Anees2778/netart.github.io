@@ -1,0 +1,154 @@
+.mainbox {
+  background-color: #262626;
+}
+.container {
+  background-color: #fffbd1;
+  font-weight: 500px;
+  border: 2px solid red;
+  font-family: "Kaisei Tokumin", serif;
+  height: auto;
+  padding: 0px;
+}
+.logo {
+  width: 25%;
+  margin: auto;
+  display: flex;
+}
+.image1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.heading {
+  font-weight: bold;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.box {
+  padding: 30px 0px;
+}
+.listtxt {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+}
+.txt {
+  padding-left: 60px;
+}
+.img2 {
+  width: 100%;
+  padding:0px 10px;
+}
+.sectxt {
+  font-size: 13px;
+  padding: 0px 10px;
+}
+.img3 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 20px 0px;
+}
+.imgtxt {
+  text-align: center;
+  font-size: 12px;
+  padding: 30px 10px 0pc 10px;
+}
+.links {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+}
+.line {
+  background-color: red;
+  width: 96%;
+  margin: auto;
+  height: 1px;
+}
+.footertxt {
+  text-align: center;
+  padding-top: 10px;
+}
+.links a {
+  text-decoration: none;
+  padding: 2px 10px;
+  font-size: 13px;
+  color: black;
+}
+.links {
+  text-align: center;
+  padding: 0px 10px;
+}
+.links a:not(:nth-child(1)) {
+  border-left: 1px solid red;
+}
+.mediaicons {
+  background-color: #ec3237;
+  padding: 20px 0px 10px 10%;
+  color: #fff;
+  margin-bottom: 10px;
+}
+span{
+    vertical-align: bottom;
+    font-size: 13px;
+}
+.bx{
+    padding-bottom: 50px;
+}
+.fa {
+  padding: 14px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-phone,
+.fa-globe {
+  background: #fffbd1;
+  color: rgb(245, 25, 25);
+}
+@media only screen and (max-width: 1200px) {
+    .logo {
+      width: 50%;
+    }
+    .image1 {
+      width: 30%;
+    }
+  }
+@media only screen and (max-width: 1000px) {
+  .logo {
+    width: 55%;
+  }
+  .image1 {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .logo {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image1 {
+    width: 40%;
+  }
+  .logo {
+    width: 65%;
+  }
+  .img3 {
+    width: 90%;
+  }
+  .foo ul li {
+    text-align: left;
+  }
+  /* .foo ul li:nth-child(1){
+        border-left: 1px solid red;
+    } */
+}

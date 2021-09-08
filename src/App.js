@@ -3,24 +3,22 @@ import image1 from "./images/image1.png";
 import img2 from "./images/img2.png";
 import img3 from "./images/img3.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Col, Row, Form } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Col, Row } from "react-bootstrap";
 import "./App.css";
-
-import home from "./components/Home";
+import "./assests/Main.css";
 
 function App() {
   return (
     <div className="mainbox">
-      <div className="container">
+      <div id="rem" className="container">
         <div>
-          <img className="logo" src={log}></img>
+          <img alt="uyf" className="logo" src={log}></img>
         </div>
 
         <div className="box">
           <Row>
             <Col sm="12" md="12" lg="12" xl="4" xxl="4">
-              <img className="image1" src={image1}></img>
+              <img alt="aksjj" className="image1" src={image1}></img>
             </Col>
             <Col sm="12" md="12" lg="12" xl="8" xxl="8">
               <p className="heading">
@@ -43,7 +41,7 @@ function App() {
                   </p>
                 </li>
               </ul>
-              <img className="img2" src={img2}></img>
+              <img alt="akw" className="img2" src={img2}></img>
               <p className="listtxt">
                 Government of India has awarded the{" "}
                 <b> "National Energy Conservation Award 2018"</b>. Mr. G.
@@ -60,7 +58,7 @@ function App() {
             RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
             POWER FOR THE NATION.{" "}
           </p>
-          <img className="img3" src={img3}></img>
+          <img alt="akdj" className="img3" src={img3}></img>
           <p className="imgtxt">
             Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
             Solar Systems - Motors
@@ -73,30 +71,37 @@ function App() {
           </p>
         </div>
         <div className="links">
-          <a href="#kdkfjdhf">CHEMICALS & PROCESS</a>
-          <a> POWER </a>
-            <a href="#wdjskfhiwrehf">WATER & WASTE WATER </a>
-            <a href="#dskfjdkhf">OILS & GAS</a>
-            <a href="#wdjskfhiwrehf">PHARMA </a>
-            <a href="#wdjskfhiwrehf"> SUGARS& DISTILLERIES </a>
-            <a href="#wdjskfhiwrehf">PAPER & PULP </a>
-            <a href="#wdjskfhiwrehf">MARINE & DEFENCE </a>
-            <a href="#wdjskfhiwrehf">METAL & MINING </a>
-            <a href="#wdjskfhiwrehf">FOOD & BEVERAGE </a>
-            <a href="#wdjskfhiwrehf">PETROCHEMICAL & REFINERIES </a>
-            <a href="#wdjskfhiwrehf">SOLAR</a>
-            <a href="#wdjskfhiwrehf">BUILDING</a>
-            <a href="#wdjskfhiwrehf">HVAC</a>
-            <a href="#wdjskfhiwrehf">FIRE FIGHTING</a>
-            <a href="#wdjskfhiwrehf">AGRICULTURE & RESIDENTIAL</a>
+          <a href="/#">CHEMICALS & PROCESS</a>
+          <a href="/#"> POWER </a>
+          <a href="/#">WATER & WASTE WATER </a>
+          <a href="/#">OILS & GAS</a>
+          <a href="/#">PHARMA </a>
+          <a href="/#"> SUGARS& DISTILLERIES </a>
+          <a href="/#">PAPER & PULP </a>
+          <a href="/#">MARINE & DEFENCE </a>
+          <a href="/#">METAL & MINING </a>
+          <a href="/#">FOOD & BEVERAGE </a>
+          <a href="/#">PETROCHEMICAL & REFINERIES </a>
+          <a href="/#">SOLAR</a>
+          <a href="/#">BUILDING</a>
+          <a href="/#">HVAC</a>
+          <a href="/#">FIRE FIGHTING</a>
+          <a href="/#">AGRICULTURE & RESIDENTIAL</a>
         </div>
         <div className="mediaicons">
           <Row>
-          <Col className="bx" sm="12" md="12" lg="4" xl="4"><a href="#" class="fa fa-phone"></a><span>www.facebook.com/cripumps</span></Col>
-            <Col  className="bx" sm="12" md="12" lg="4" xl="4"><a href="#" class="fa fa-facebook"></a><span>www.facebook.com/cripumps</span></Col>
-            <Col  className="bx" sm="12" md="12" lg="4" xl="4"><a href="#" class="fa fa-globe"></a><span>www.facebook.com/cripumps</span></Col>
-            
-            
+            <Col className="bx" sm="12" md="12" lg="4" xl="4">
+              <a href="/#" ><i className="fa fa-phone"></i></a>
+              <span>www.facebook.com/cripumps</span>
+            </Col>
+            <Col className="bx" sm="12" md="12" lg="4" xl="4">
+              <a href="/#" ><i className="fa fa-facebook"></i></a>
+              <span>www.facebook.com/cripumps</span>
+            </Col>
+            <Col className="bx" sm="12" md="12" lg="4" xl="4">
+              <a href="/#" ><i className="fa fa-globe"></i></a>
+              <span>www.facebook.com/cripumps</span>
+            </Col>
           </Row>
         </div>
       </div>
